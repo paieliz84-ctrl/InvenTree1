@@ -8,7 +8,7 @@ msgstr ""
 "Language: ja\n"
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-03-19 06:00\n"
+"PO-Revision-Date: 2026-03-23 10:49\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -1295,32 +1295,36 @@ msgid "The image has been removed successfully"
 msgstr ""
 
 #: src/components/details/DetailsImage.tsx:115
-msgid "Drag and drop to upload"
-msgstr "ドラッグ＆ドロップでアップロード"
+#~ msgid "Drag and drop to upload"
+#~ msgstr "Drag and drop to upload"
 
-#: src/components/details/DetailsImage.tsx:118
+#: src/components/details/DetailsImage.tsx:157
+msgid "Drag and drop to upload, or paste an image from the clipboard"
+msgstr ""
+
+#: src/components/details/DetailsImage.tsx:162
 msgid "Click to select file(s)"
 msgstr "クリックしてファイルを選択"
 
-#: src/components/details/DetailsImage.tsx:178
+#: src/components/details/DetailsImage.tsx:222
 msgid "Image uploaded"
 msgstr "画像アップロード完了"
 
-#: src/components/details/DetailsImage.tsx:179
+#: src/components/details/DetailsImage.tsx:223
 msgid "Image has been uploaded successfully"
 msgstr "画像は正常にアップロードされました"
 
-#: src/components/details/DetailsImage.tsx:186
+#: src/components/details/DetailsImage.tsx:230
 #: src/tables/general/AttachmentTable.tsx:201
 msgid "Upload Error"
 msgstr "アップロードエラー"
 
-#: src/components/details/DetailsImage.tsx:256
+#: src/components/details/DetailsImage.tsx:300
 #: src/components/forms/fields/AutoFillRightSection.tsx:34
 msgid "Clear"
 msgstr "クリア"
 
-#: src/components/details/DetailsImage.tsx:262
+#: src/components/details/DetailsImage.tsx:306
 #: src/components/forms/ApiForm.tsx:696
 #: src/contexts/ThemeContext.tsx:56
 #: src/pages/Index/Settings/AccountSettings/MFASettings.tsx:151
@@ -1328,35 +1332,35 @@ msgstr "クリア"
 msgid "Submit"
 msgstr "送信"
 
-#: src/components/details/DetailsImage.tsx:306
+#: src/components/details/DetailsImage.tsx:350
 msgid "Select from existing images"
 msgstr "既存の画像から選択"
 
-#: src/components/details/DetailsImage.tsx:314
+#: src/components/details/DetailsImage.tsx:358
 msgid "Select Image"
 msgstr "画像を選択"
 
-#: src/components/details/DetailsImage.tsx:330
+#: src/components/details/DetailsImage.tsx:374
 msgid "Download remote image"
 msgstr "リモート画像ダウンロード"
 
-#: src/components/details/DetailsImage.tsx:345
+#: src/components/details/DetailsImage.tsx:389
 msgid "Upload new image"
 msgstr "新しい画像をアップロード"
 
-#: src/components/details/DetailsImage.tsx:352
+#: src/components/details/DetailsImage.tsx:396
 msgid "Upload Image"
 msgstr "画像をアップロード"
 
-#: src/components/details/DetailsImage.tsx:365
+#: src/components/details/DetailsImage.tsx:409
 msgid "Delete image"
 msgstr "画像を削除"
 
-#: src/components/details/DetailsImage.tsx:399
+#: src/components/details/DetailsImage.tsx:443
 msgid "Download Image"
 msgstr "イメージのダウンロード"
 
-#: src/components/details/DetailsImage.tsx:404
+#: src/components/details/DetailsImage.tsx:448
 msgid "Image downloaded successfully"
 msgstr "画像のダウンロードに成功しました"
 
